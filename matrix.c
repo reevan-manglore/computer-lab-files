@@ -2,9 +2,9 @@
 #include <stdlib.h>
 int main(int argc, char const *argv[]) {
   int m,n,p,q,i,j,a[10][10],b[10][10],c[10][10],k;
-  printf("enter the dimensions of matrix a = ");
+  printf("enter the dimensions of matrix a with each value separate by spaces = ");
   scanf("%d %d",&m,&n);
-  printf("enter dimensions of matrix b = ");
+  printf("enter dimensions of matrix b with each value separate by spaces = ");
   scanf("%d%d",&p,&q);
   if(n!=p){
     printf("matrix multiplication not possible");
